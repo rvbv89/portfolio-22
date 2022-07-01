@@ -1,20 +1,18 @@
 import React from "react";
 
-export const ProjectsPage = () => {
-
-
+export const ProjectsPage = ({projectRef}) => {
   return (
-    <div className="container mx-auto min-h-screen text-slate-50">
+    <div ref={projectRef} className="container mx-auto min-h-screen text-slate-50">
       <div className="container max-w-lg mx-auto">
-        <h1 className="text-5xl py-6">Projects</h1>
+        <h1 className="text-5xl py-6 font-display">Projects</h1>
       </div>
 
       <div
-      onClick={(e) => {
-        e.preventDefault();
-        window.open('https://rvbv89-supachat.netlify.app/', '_blank')
-      }}
-        className="container max-w-lg mx-auto p-6 box-border border border-solid bg-neutral-700 border-zinc-500 
+        onClick={(e) => {
+          e.preventDefault();
+          window.open("https://rvbv89-supachat.netlify.app/", "_blank");
+        }}
+        className="container max-w-lg mx-auto p-6 box-border border border-solid bg-customGrey border-zinc-500 
       rounded-md flex flex-col items-center cursor-pointer"
       >
         <h2 className="text-2xl py-4">React/Supabase Chat</h2>
@@ -31,12 +29,16 @@ export const ProjectsPage = () => {
           a more fully-featured social media app.
         </p>
       </div>
-      <div className="container max-w-lg mx-auto my-6 p-6 box-border border border-solid bg-neutral-700 border-zinc-500 
+      <div
+        className="container max-w-lg mx-auto my-6 p-6 box-border border border-solid bg-customGrey border-zinc-500 
       rounded-md flex flex-col items-center cursor-pointer"
-      onClick={(e) => {
-        e.preventDefault();
-        window.open('https://cheery-travesseiro-5c9583.netlify.app/', '_blank')
-      }}
+        onClick={(e) => {
+          e.preventDefault();
+          window.open(
+            "https://cheery-travesseiro-5c9583.netlify.app/",
+            "_blank"
+          );
+        }}
       >
         <h2 className="text-2xl py-4">Storefront Demo</h2>
         <img
