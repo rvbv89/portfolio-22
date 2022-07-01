@@ -55,10 +55,10 @@ export const ProjectsPage = ({projectRef}) => {
           component library for the mark-up.
         </p>
       </div>
-      <div>
+      {/* <div>
         <h2>Bird Watcher</h2>
         <p className="project-dsc"></p>
-      </div>
+      </div> */}
     </div>
   );
 };

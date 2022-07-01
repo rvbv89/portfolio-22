@@ -18,7 +18,7 @@ function App() {
     scrollRef.current.scrollIntoView({ behavior: "smooth" });
 
   return (
-    <div className="box-border bg-customDark max-w-fit -mx-2 md:mx-0">
+    <div className="box-border bg-customDark max-w-fit md:mx-0">
       <div className="box-border container flex flex-col mx-auto min-h-screen overflow-x-hidden bg-customDark">
         <Navbar
           aboutRef={aboutRef}
