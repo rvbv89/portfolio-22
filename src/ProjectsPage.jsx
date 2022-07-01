@@ -1,10 +1,14 @@
 import React from "react";
 
-export const ProjectsPage = ({projectRef}) => {
+export const ProjectsPage = ({ projectRef }) => {
   return (
-    <div ref={projectRef} className="container mx-auto min-h-screen max-w-fit text-slate-50">
-      <div className="max-w-lg mx-auto">
-        <h1 className="text-5xl py-6 font-display">Projects</h1>
+    <div
+      ref={projectRef}
+      className="container mx-auto min-h-screen max-w-fit text-slate-50"
+    >
+      <div className="flex flex-row">
+        <div className="my-4 w-3/4 px-4 border-t-4 border-teal-500"></div>
+        <h1 className="text-5xl pb-8 pl-6 flex-nowrap font-display">Projects</h1>
       </div>
 
       <div
@@ -15,7 +19,7 @@ export const ProjectsPage = ({projectRef}) => {
         className="container max-w-6xl mx-auto p-6 box-border border border-solid bg-customGrey border-zinc-500 
       rounded-md flex flex-col items-center cursor-pointer"
       >
-        <h2 className="text-2xl py-4">ChatApp</h2>
+        <h2 className="text-2xl py-4 font-display">ChatApp</h2>
         <img
           className="port-img max-w-content"
           src={require("./img/chat.png")}
@@ -40,7 +44,7 @@ export const ProjectsPage = ({projectRef}) => {
           );
         }}
       >
-        <h2 className="text-2xl py-4">Storefront Demo</h2>
+        <h2 className="text-2xl py-4 font-display">Storefront Demo</h2>
         <img
           className="port-img max-w-content"
           src={require("./img/store.png")}

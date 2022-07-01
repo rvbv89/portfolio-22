@@ -15,18 +15,22 @@ export const Contact = ({ contactRef }) => {
         </div>
 
         <div className="text-3xl whitespace-pre-line">
-          <p className="pb-6">
+          <p className="pb-10">
             I'm currently open to work opportunities. If you're looking for a
             dependable, hard-working developer, I'd love to hear from you!
           </p>
           <div className="flex flex-col">
             <div className="mb-4">
-              <span className="mr-4">Email:</span>
-              <i className="fa-solid fa-envelope text-5xl"></i>
+              <span className="mr-2 font-display">Email:</span>
+              <a href="mailto:garzotto5389@gmail.com">garzotto5389@gmail</a>
+            </div>
+            <div className="mb-4">
+              <span className="mr-2 font-display">Github:</span>
+              <a href="https://github.com/rvbv89" target="_blank">https://github.com/rvbv89</a>
             </div>
             <div>
-              <span className="mr-4">LinkedIn:</span>
-              <i className="fa-brands fa-linkedin text-5xl"></i>
+              <span className="mr-2 font-display">LinkedIn:</span>
+              <a href="https://www.linkedin.com/in/ivan-garzotto-iii/" target="_blank">https://www.linkedin.com/in/ivan-garzotto-iii/</a>
             </div>
           </div>
         </div>
