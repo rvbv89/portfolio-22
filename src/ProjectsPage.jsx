@@ -3,7 +3,7 @@ import React from "react";
 export const ProjectsPage = ({projectRef}) => {
   return (
     <div ref={projectRef} className="container mx-auto min-h-screen text-slate-50">
-      <div className="container max-w-lg mx-auto">
+      <div className="max-w-lg mx-auto">
         <h1 className="text-5xl py-6 font-display">Projects</h1>
       </div>
 
@@ -12,12 +12,12 @@ export const ProjectsPage = ({projectRef}) => {
           e.preventDefault();
           window.open("https://rvbv89-supachat.netlify.app/", "_blank");
         }}
-        className="container max-w-lg mx-auto p-6 box-border border border-solid bg-customGrey border-zinc-500 
+        className="container max-w-6xl mx-auto p-6 box-border border border-solid bg-customGrey border-zinc-500 
       rounded-md flex flex-col items-center cursor-pointer"
       >
         <h2 className="text-2xl py-4">React/Supabase Chat</h2>
         <img
-          className="port-img max-w-md"
+          className="port-img max-w-3xl"
           src={require("./img/chat.png")}
           alt="A screenshot of my chat app"
         />
@@ -30,7 +30,7 @@ export const ProjectsPage = ({projectRef}) => {
         </p>
       </div>
       <div
-        className="container max-w-lg mx-auto my-6 p-6 box-border border border-solid bg-customGrey border-zinc-500 
+        className="container max-w-6xl mx-auto my-6 p-6 box-border border border-solid bg-customGrey border-zinc-500 
       rounded-md flex flex-col items-center cursor-pointer"
         onClick={(e) => {
           e.preventDefault();
@@ -42,7 +42,7 @@ export const ProjectsPage = ({projectRef}) => {
       >
         <h2 className="text-2xl py-4">Storefront Demo</h2>
         <img
-          className="port-img max-w-md"
+          className="port-img max-w-3xl"
           src={require("./img/store.png")}
           alt="A screenshot of my store app"
         />

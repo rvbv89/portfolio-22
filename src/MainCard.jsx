@@ -3,13 +3,17 @@ import { motion } from "framer-motion";
 
 export const MainCard = ({ projectRef }) => {
   const sendMail = () => {
-    const mailto: string = "mailto:garzotto5389@gmail.com";
+    const mailto = "mailto:garzotto5389@gmail.com";
     window.location.href = mailto;
   };
 
   const openLinkedIn = () => {
     console.log("click");
     window.open("https://www.linkedin.com/in/ivan-garzotto-iii", "_blank");
+  };
+  const openLink = (url) => {
+    console.log("click");
+    window.open(url, "_blank");
   };
 
   return (
@@ -46,7 +50,18 @@ export const MainCard = ({ projectRef }) => {
           <motion.div
             className="cursor-pointer"
             whileHover={{ scale: 1.2 }}
-            onClick={openLinkedIn}
+            onClick={() => {
+              openLink("https://github.com/rvbv89");
+            }}
+          >
+            <i className="fa-brands fa-github text-5xl px-2 text-zinc-100"></i>
+          </motion.div>
+          <motion.div
+            className="cursor-pointer"
+            whileHover={{ scale: 1.2 }}
+            onClick={() => {
+              openLink("https://www.linkedin.com/in/ivan-garzotto-iii");
+            }}
           >
             <i className="fa-brands fa-linkedin text-5xl px-2 text-zinc-100"></i>
           </motion.div>
