@@ -4,7 +4,7 @@ export const Contact = ({ contactRef }) => {
   return (
     <div
       ref={contactRef}
-      className="flex items-center min-h-screen text-slate-50"
+      className="flex items-center min-h-screen max-w-fit text-slate-50"
     >
       <div className="flex-auto basis-1/2 mx-20 p-4">
         <div className="flex flex-row">
