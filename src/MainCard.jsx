@@ -19,7 +19,7 @@ export const MainCard = ({ projectRef }) => {
   return (
     <div
       ref={projectRef}
-      className="box-border max-w-fit flex flex-col lg:flex-row items-center min-h-screen text-slate-50"
+      className="box-border max-w-fit md:max-w-full flex flex-col lg:flex-row items-center min-h-screen text-slate-50"
     >
       <div className="flex-auto basis-1/2 p-6 md:m-8 border border-solid border-fuchsia-600 border-4 rounded-md">
         <h1 className="text-8xl md:m-8 py-4 font-display">
