@@ -4,9 +4,9 @@ export const ProjectsPage = ({ projectRef }) => {
   return (
     <div
       ref={projectRef}
-      className="container mx-auto min-h-screen max-w-fit text-slate-50"
+      className="container flex flex-col mx-auto min-h-screen max-w-fit text-slate-50"
     >
-      <div className="flex flex-row">
+      <div className="flex flex-row px-6">
         <div className="my-4 w-3/4 px-4 border-t-4 border-teal-500"></div>
         <h1 className="text-5xl pb-8 pl-6 flex-nowrap font-display">Projects</h1>
       </div>
