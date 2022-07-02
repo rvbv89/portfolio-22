@@ -19,10 +19,10 @@ export const MainCard = ({ projectRef }) => {
   return (
     <div
       ref={projectRef}
-      className="box-border mx-auto max-w-fit md:max-w-full flex flex-col lg:flex-row items-center min-h-screen text-slate-50"
+      className="box-border flex flex-col mx-auto max-w-screen-sm md:max-w-full lg:flex-row items-center min-h-screen text-slate-50"
     >
-      <div className="flex-auto md:basis-1/2 md:m-32 p-6 border border-solid border-fuchsia-600 border-4 rounded-md">
-        <h1 className="text-8xl md:m-8 py-4 font-display">
+      <div className="flex-auto basis-1/2 m-4 md:m-20 p-6 border border-solid border-fuchsia-600 border-4 rounded-md">
+        <h1 className="text-8xl mx-auto md:text-8xl m-6 py-4 font-display">
           Hi, I'm <span>Ivan.</span>
         </h1>
         <p className="text-4xl md:m-8 leading-normal">
