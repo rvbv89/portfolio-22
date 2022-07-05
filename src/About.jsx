@@ -4,7 +4,7 @@ export const About = ({ aboutRef }) => {
   return (
     <div
       ref={aboutRef}
-      className="flex items-center min-h-screen text-slate-50"
+      className="flex flex-col items-center min-h-screen text-slate-50"
     >
       <div className="flex-auto basis-1/2 md:mx-40 p-4">
         <div className="flex flex-row">

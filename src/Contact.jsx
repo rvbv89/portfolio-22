@@ -12,7 +12,7 @@ export const Contact = ({ contactRef }) => {
           <div className="my-4 w-3/4 px-4 border-t-4 border-teal-500"></div>
         </div>
 
-        <div>
+        <div className="md:text-2xl">
           <div className="mb-4">
             <span className="mr-2 font-display">Email:</span>
             <a href="mailto:garzotto5389@gmail.com">garzotto5389@gmail</a>

@@ -19,7 +19,9 @@ function App() {
 
   return (
     <div className="box-border bg-customDark max-w-fit md:mx-0">
-      <div className="box-border container flex flex-col mx-auto min-h-screen overflow-x-hidden bg-customDark">
+      {/* <div className="box-border container flex flex-col 
+      items-center mx-auto min-h-screen overflow-x-hidden 
+      bg-customDark"> */}
         <Navbar
           aboutRef={aboutRef}
           projectRef={projectRef}
@@ -30,7 +32,7 @@ function App() {
         <About aboutRef={aboutRef} />
         <ProjectsPage projectRef={projectRef} />
         <Contact contactRef={contactRef} />
-      </div>
+      {/* </div> */}
     </div>
   );
 }
