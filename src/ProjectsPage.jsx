@@ -13,6 +13,30 @@ export const ProjectsPage = ({ projectRef }) => {
             Projects
           </h1>
         </div>
+        <div
+          onClick={(e) => {
+            e.preventDefault();
+            window.open("https://lively-sundae-eff7de.netlify.app/", "_blank");
+          }}
+          className="container max-w-6xl mx-auto my-6 p-6 box-border border border-solid bg-customGrey border-zinc-500 
+      rounded-md flex flex-col items-center cursor-pointer"
+        >
+          <h2 className="text-2xl py-4 font-display">ILG-Platform</h2>
+          <img
+            className="port-img max-w-content"
+            src={require("./img/ilg-platform.png")}
+            alt="A screenshot of my social media platform app"
+          />
+          <p class="port-desc text-lg py-4">
+            Using my chat app as a jumping off point, I took the knowledge I gained working with supabase to create an app with more scalability and better
+            state management. I used Redux instead of the Context API for most of my state management. I also did more hands-on work with the 
+            backend. Supabase's dashboard provides really powerful tools that allow you to get away with writing little to no SQL. In this project,
+            I took the time to dive a bit deeper into PostgreSQL in order to leverage Supabase's realtime features.  This project has been 
+            very rewarding and is still in its infancy. I'm currently adding more 3rd party authentication methods, adding media support,
+            and adding direct messaging.
+          </p>
+        </div>
+        
 
         <div
           onClick={(e) => {
