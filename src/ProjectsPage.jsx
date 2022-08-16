@@ -32,7 +32,7 @@ export const ProjectsPage = ({ projectRef }) => {
             state management. I used Redux instead of the Context API for most of my state management. I also did more hands-on work with the 
             backend. Supabase's dashboard provides really powerful tools that allow you to get away with writing little to no SQL. In this project,
             I took the time to dive a bit deeper into PostgreSQL in order to leverage Supabase's realtime features.  This project has been 
-            very rewarding and is still in its infancy. I'm currently adding more 3rd party authentication methods, adding media support,
+            very rewarding and is still in its infancy. I'm currently adding more third-party authentication methods, adding media support,
             and adding direct messaging.
           </p>
         </div>
