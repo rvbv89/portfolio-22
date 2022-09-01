@@ -18,7 +18,7 @@ function App() {
     scrollRef.current.scrollIntoView({ behavior: "smooth" });
 
   return (
-    <div className="box-border bg-customDark max-w-fit md:mx-0">
+    <div className="box-border bg-customDark min-w-fit md:mx-0 overflow-x-hidden">
       {/* <div className="box-border container flex flex-col 
       items-center mx-auto min-h-screen overflow-x-hidden 
       bg-customDark"> */}
